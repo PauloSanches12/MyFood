@@ -13,7 +13,8 @@
 
         <Button
             android:layout_width="wrap_content"
-            android:text="Palmas"
+            style="@style/MyFoodButtonStyle"
+            android:text="Condominio Palmeira Imperial"
             android:textSize="13sp"
             android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
             android:layout_height="wrap_content" />
@@ -29,6 +30,7 @@
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/add_tab"
+        app:tabTextAppearance="@style/MyFoodTabLayoutTextAppearence"
         app:tabMode="auto"
         app:tabIndicatorFullWidth="false"
         app:tabIndicatorHeight="1dp"
